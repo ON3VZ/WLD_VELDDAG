@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-08-17T16:34:53Z",
+ "generated_at_utc": "2026-08-17T16:35:12Z",
  "app_version": "1.3.1",
  "readonly": true,
  "show_station_category": true,
@@ -213,7 +213,8 @@
      "status": "not_worked"
     },
     "80m": {
-     "status": "not_worked"
+     "status": "manual_worked",
+     "manual": true
     },
     "40m": {
      "status": "not_worked"
@@ -713,13 +714,13 @@
   "stations_total": 38,
   "bands_total": 3,
   "cells_total": 114,
-  "cells_worked": 2,
-  "cells_open": 112,
-  "manual_overrides": 3,
+  "cells_worked": 3,
+  "cells_open": 111,
+  "manual_overrides": 4,
   "cells_excluded": 0,
   "stations_complete": 0,
-  "stations_partial": 2,
-  "stations_untouched": 36,
+  "stations_partial": 3,
+  "stations_untouched": 35,
   "per_band": {
    "160m": {
     "total": 38,
@@ -730,9 +731,9 @@
    },
    "80m": {
     "total": 38,
-    "worked": 1,
-    "open": 37,
-    "manual_overrides": 1,
+    "worked": 2,
+    "open": 36,
+    "manual_overrides": 2,
     "excluded": 0
    },
    "40m": {
@@ -747,9 +748,9 @@
    "Open All Band Low Power": {
     "stations": 14,
     "total": 42,
-    "worked": 1,
-    "open": 41,
-    "manual_overrides": 1,
+    "worked": 2,
+    "open": 40,
+    "manual_overrides": 2,
     "excluded": 0
    },
    "Restricted 12h": {
