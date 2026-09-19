@@ -1,12 +1,14 @@
 {
- "generated_at_utc": "2026-09-19T20:48:57Z",
+ "generated_at_utc": "2026-09-19T20:53:28Z",
  "readonly": true,
  "publication": {
-  "state": "expired",
-  "end_utc": "2026-08-30T19:10:00Z"
+  "state": "upcoming",
+  "next_name": "Belgian Mill Award",
+  "next_start_utc": "2026-09-20T05:50:00Z",
+  "next_location": ""
  },
  "field_day": {
-  "name": "Field Day 2026-07-23"
+  "name": "Belgian Mill Award"
  },
  "stations": [],
  "bands": [],
