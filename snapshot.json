@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-20T06:23:46Z",
+ "generated_at_utc": "2026-09-20T06:28:46Z",
  "app_version": "1.4.0",
  "readonly": true,
  "show_station_category": true,
@@ -18,7 +18,15 @@
   ],
   "closed": false
  },
- "sources": [],
+ "sources": [
+  {
+   "name": "ON3VZ_KRISTOF",
+   "last_seen_utc": "2026-09-20T06:28:33Z",
+   "packet_count": 2,
+   "last_address": "127.0.0.1",
+   "fresh": true
+  }
+ ],
  "stations": [
   {
    "callsign": "OT2X/P",
@@ -75,14 +83,27 @@
    "section": "X53969",
    "cells": {
     "80m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-20T06:28:33Z",
+     "mode": "LSB",
+     "freq_khz": 3632.0,
+     "source": "ON3VZ_KRISTOF",
+     "qso_count": 1
     },
     "2m": {
      "status": "excluded",
      "manual": true
     }
    },
-   "qsos": []
+   "qsos": [
+    {
+     "band": "80m",
+     "at_utc": "2026-09-20T06:28:33Z",
+     "mode": "LSB",
+     "freq_khz": 3632.0,
+     "source": "ON3VZ_KRISTOF"
+    }
+   ]
   },
   {
    "callsign": "OR5N/P",
@@ -155,14 +176,27 @@
    "section": "X38631",
    "cells": {
     "80m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-20T06:26:37Z",
+     "mode": "LSB",
+     "freq_khz": 3626.0,
+     "source": "ON3VZ_KRISTOF",
+     "qso_count": 1
     },
     "2m": {
      "status": "excluded",
      "manual": true
     }
    },
-   "qsos": []
+   "qsos": [
+    {
+     "band": "80m",
+     "at_utc": "2026-09-20T06:26:37Z",
+     "mode": "LSB",
+     "freq_khz": 3626.0,
+     "source": "ON3VZ_KRISTOF"
+    }
+   ]
   },
   {
    "callsign": "ON7RVV/P",
@@ -585,18 +619,18 @@
   "stations_total": 35,
   "bands_total": 2,
   "cells_total": 70,
-  "cells_worked": 0,
-  "cells_open": 35,
+  "cells_worked": 2,
+  "cells_open": 33,
   "manual_overrides": 35,
   "cells_excluded": 35,
-  "stations_complete": 0,
+  "stations_complete": 2,
   "stations_partial": 0,
-  "stations_untouched": 35,
+  "stations_untouched": 33,
   "per_band": {
    "80m": {
     "total": 35,
-    "worked": 0,
-    "open": 27,
+    "worked": 2,
+    "open": 25,
     "manual_overrides": 8,
     "excluded": 8
    },
@@ -612,8 +646,8 @@
    "HF": {
     "stations": 27,
     "total": 54,
-    "worked": 0,
-    "open": 27,
+    "worked": 2,
+    "open": 25,
     "manual_overrides": 27,
     "excluded": 27
    },
