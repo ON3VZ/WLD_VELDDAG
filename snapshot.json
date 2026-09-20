@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-20T06:38:47Z",
+ "generated_at_utc": "2026-09-20T06:43:47Z",
  "app_version": "1.4.0",
  "readonly": true,
  "show_station_category": true,
@@ -24,7 +24,7 @@
    "last_seen_utc": "2026-09-20T06:38:16Z",
    "packet_count": 4,
    "last_address": "127.0.0.1",
-   "fresh": true
+   "fresh": false
   }
  ],
  "stations": [
