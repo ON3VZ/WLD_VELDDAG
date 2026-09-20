@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at_utc": "2026-09-20T06:33:46Z",
+ "generated_at_utc": "2026-09-20T06:34:44Z",
  "app_version": "1.4.0",
  "readonly": true,
  "show_station_category": true,
@@ -21,10 +21,10 @@
  "sources": [
   {
    "name": "ON3VZ_KRISTOF",
-   "last_seen_utc": "2026-09-20T06:28:33Z",
-   "packet_count": 2,
+   "last_seen_utc": "2026-09-20T06:34:15Z",
+   "packet_count": 3,
    "last_address": "127.0.0.1",
-   "fresh": false
+   "fresh": true
   }
  ],
  "stations": [
@@ -67,14 +67,27 @@
    "section": "X32907",
    "cells": {
     "80m": {
-     "status": "not_worked"
+     "status": "worked_by_n1mm",
+     "at_utc": "2026-09-20T06:34:15Z",
+     "mode": "LSB",
+     "freq_khz": 3635.5,
+     "source": "ON3VZ_KRISTOF",
+     "qso_count": 1
     },
     "2m": {
      "status": "excluded",
      "manual": true
     }
    },
-   "qsos": []
+   "qsos": [
+    {
+     "band": "80m",
+     "at_utc": "2026-09-20T06:34:15Z",
+     "mode": "LSB",
+     "freq_khz": 3635.5,
+     "source": "ON3VZ_KRISTOF"
+    }
+   ]
   },
   {
    "callsign": "OS8B/P",
@@ -619,18 +632,18 @@
   "stations_total": 35,
   "bands_total": 2,
   "cells_total": 70,
-  "cells_worked": 2,
-  "cells_open": 33,
+  "cells_worked": 3,
+  "cells_open": 32,
   "manual_overrides": 35,
   "cells_excluded": 35,
-  "stations_complete": 2,
+  "stations_complete": 3,
   "stations_partial": 0,
-  "stations_untouched": 33,
+  "stations_untouched": 32,
   "per_band": {
    "80m": {
     "total": 35,
-    "worked": 2,
-    "open": 25,
+    "worked": 3,
+    "open": 24,
     "manual_overrides": 8,
     "excluded": 8
    },
@@ -646,8 +659,8 @@
    "HF": {
     "stations": 27,
     "total": 54,
-    "worked": 2,
-    "open": 25,
+    "worked": 3,
+    "open": 24,
     "manual_overrides": 27,
     "excluded": 27
    },
