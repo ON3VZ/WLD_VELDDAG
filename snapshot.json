@@ -1,18 +1,664 @@
 {
- "generated_at_utc": "2026-09-19T23:55:31Z",
+ "schema_version": 1,
+ "generated_at_utc": "2026-09-20T06:13:42Z",
+ "app_version": "1.4.0",
  "readonly": true,
- "publication": {
-  "state": "upcoming",
-  "next_name": "Belgian Mill Award",
-  "next_start_utc": "2026-09-20T05:50:00Z",
-  "next_location": ""
- },
+ "show_station_category": true,
  "field_day": {
-  "name": "Belgian Mill Award"
+  "name": "Belgian Mill Award",
+  "location": "",
+  "event_callsign": "",
+  "organizer_club": "",
+  "start_utc": "2026-09-20T05:50:00Z",
+  "end_utc": "2026-09-20T20:50:00Z",
+  "display_timezone": "Europe/Brussels",
+  "bands": [
+   "80m",
+   "2m"
+  ],
+  "closed": false
  },
- "stations": [],
- "bands": [],
- "stats": {},
- "legend": {},
- "colors": {}
+ "sources": [],
+ "stations": [
+  {
+   "callsign": "OT2X/P",
+   "normalized": "OT2X",
+   "category": "HF",
+   "section": "X32317",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OT2L/P",
+   "normalized": "OT2L",
+   "category": "HF",
+   "section": "X44081",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OT0K/P",
+   "normalized": "OT0K",
+   "category": "HF",
+   "section": "X32907",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OS8B/P",
+   "normalized": "OS8B",
+   "category": "HF",
+   "section": "X53969",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OR5N/P",
+   "normalized": "OR5N",
+   "category": "HF",
+   "section": "X30915",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OP2C/P",
+   "normalized": "OP2C",
+   "category": "HF",
+   "section": "X32243",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OO9T/P",
+   "normalized": "OO9T",
+   "category": "HF",
+   "section": "X32454",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OO7W/P",
+   "normalized": "OO7W",
+   "category": "HF",
+   "section": "X40870",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON8JLR/P",
+   "normalized": "ON8JLR",
+   "category": "HF",
+   "section": "X38631",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON7RVV/P",
+   "normalized": "ON7RVV",
+   "category": "HF",
+   "section": "X32491",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6WL/P",
+   "normalized": "ON6WL",
+   "category": "HF",
+   "section": "X32353",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6VE/P",
+   "normalized": "ON6VE",
+   "category": "HF",
+   "section": "X32360",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6UB/P",
+   "normalized": "ON6UB",
+   "category": "HF",
+   "section": "X32994",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6SI/P",
+   "normalized": "ON6SI",
+   "category": "HF",
+   "section": "X32482",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6NL/P",
+   "normalized": "ON6NL",
+   "category": "HF",
+   "section": "X32948",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6HC/P",
+   "normalized": "ON6HC",
+   "category": "HF",
+   "section": "X32905",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6EF/P",
+   "normalized": "ON6EF",
+   "category": "HF",
+   "section": "X30906",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON5MB/P",
+   "normalized": "ON5MB",
+   "category": "HF",
+   "section": "X32412",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4WRA/P",
+   "normalized": "ON4WRA",
+   "category": "HF",
+   "section": "X32333",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4RCN/P",
+   "normalized": "ON4RCN",
+   "category": "HF",
+   "section": "X32301",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4RAC/P",
+   "normalized": "ON4RAC",
+   "category": "HF",
+   "section": "X31645",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4KSD/P",
+   "normalized": "ON4KSD",
+   "category": "HF",
+   "section": "X32892",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4JX/P",
+   "normalized": "ON4JX",
+   "category": "HF",
+   "section": "X45718",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4CLF/P",
+   "normalized": "ON4CLF",
+   "category": "HF",
+   "section": "X32280",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4ATO/P",
+   "normalized": "ON4ATO",
+   "category": "HF",
+   "section": "X32232",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON3PT/P",
+   "normalized": "ON3PT",
+   "category": "HF",
+   "section": "X32397",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON3DC/P",
+   "normalized": "ON3DC",
+   "category": "HF",
+   "section": "X32866",
+   "cells": {
+    "80m": {
+     "status": "not_worked"
+    },
+    "2m": {
+     "status": "excluded",
+     "manual": true
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON3JDK/P",
+   "normalized": "ON3JDK",
+   "category": "VHF",
+   "section": "X32892",
+   "cells": {
+    "80m": {
+     "status": "excluded",
+     "manual": true
+    },
+    "2m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6ZT/P",
+   "normalized": "ON6ZT",
+   "category": "VHF",
+   "section": "X32280",
+   "cells": {
+    "80m": {
+     "status": "excluded",
+     "manual": true
+    },
+    "2m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON3GHZ/P",
+   "normalized": "ON3GHZ",
+   "category": "VHF",
+   "section": "X32412",
+   "cells": {
+    "80m": {
+     "status": "excluded",
+     "manual": true
+    },
+    "2m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OO5O/P",
+   "normalized": "OO5O",
+   "category": "VHF",
+   "section": "X32675",
+   "cells": {
+    "80m": {
+     "status": "excluded",
+     "manual": true
+    },
+    "2m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON4SNW/P",
+   "normalized": "ON4SNW",
+   "category": "VHF",
+   "section": "X32491",
+   "cells": {
+    "80m": {
+     "status": "excluded",
+     "manual": true
+    },
+    "2m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "OP4W/P",
+   "normalized": "OP4W",
+   "category": "VHF",
+   "section": "X32360",
+   "cells": {
+    "80m": {
+     "status": "excluded",
+     "manual": true
+    },
+    "2m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON7QR/P",
+   "normalized": "ON7QR",
+   "category": "VHF",
+   "section": "X32907",
+   "cells": {
+    "80m": {
+     "status": "excluded",
+     "manual": true
+    },
+    "2m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  },
+  {
+   "callsign": "ON6OBR/P",
+   "normalized": "ON6OBR",
+   "category": "VHF",
+   "section": "X32231",
+   "cells": {
+    "80m": {
+     "status": "excluded",
+     "manual": true
+    },
+    "2m": {
+     "status": "not_worked"
+    }
+   },
+   "qsos": []
+  }
+ ],
+ "stats": {
+  "stations_total": 35,
+  "bands_total": 2,
+  "cells_total": 70,
+  "cells_worked": 0,
+  "cells_open": 35,
+  "manual_overrides": 35,
+  "cells_excluded": 35,
+  "stations_complete": 0,
+  "stations_partial": 0,
+  "stations_untouched": 35,
+  "per_band": {
+   "80m": {
+    "total": 35,
+    "worked": 0,
+    "open": 27,
+    "manual_overrides": 8,
+    "excluded": 8
+   },
+   "2m": {
+    "total": 35,
+    "worked": 0,
+    "open": 8,
+    "manual_overrides": 27,
+    "excluded": 27
+   }
+  },
+  "per_category": {
+   "HF": {
+    "stations": 27,
+    "total": 54,
+    "worked": 0,
+    "open": 27,
+    "manual_overrides": 27,
+    "excluded": 27
+   },
+   "VHF": {
+    "stations": 8,
+    "total": 16,
+    "worked": 0,
+    "open": 8,
+    "manual_overrides": 8,
+    "excluded": 8
+   }
+  }
+ },
+ "all_bands": [
+  "160m",
+  "80m",
+  "60m",
+  "40m",
+  "30m",
+  "20m",
+  "17m",
+  "15m",
+  "12m",
+  "10m",
+  "6m",
+  "4m",
+  "2m",
+  "70cm"
+ ],
+ "legend": {
+  "not_worked": "Not worked",
+  "worked_by_n1mm": "Worked (N1MM)",
+  "manual_worked": "Worked (manual)",
+  "manual_not_worked": "Not worked (manual)",
+  "excluded": "Excluded"
+ },
+ "colors": {
+  "not_worked": "#FFFFFF",
+  "worked_by_n1mm": "#4CAF50",
+  "manual_worked": "#1B5E20",
+  "manual_not_worked": "#FFB300",
+  "excluded": "#9E9E9E"
+ },
+ "publication": {
+  "state": "live",
+  "end_utc": "2026-09-20T20:50:00Z"
+ }
 }
